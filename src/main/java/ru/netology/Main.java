@@ -47,8 +47,10 @@ public class Main {
             sortFactsCats.forEach(fact -> {
                 System.out.println("ID: " + fact.getId());
                 System.out.println("Text: " + fact.getText());
+                System.out.println("Type: " + fact.getType());
+                System.out.println("User: " + fact.getUser());
                 System.out.println("Upvotes: " + fact.getUpvotes());
-                System.out.println("--------------");
+                System.out.println();
             });
         }
     }
